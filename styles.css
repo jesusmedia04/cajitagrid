@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.header-principal{
+    
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url(./BANNER.png);
+    background-size: cover;
+    background-position: bottom;
+    
+    margin-bottom: 10em;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1em;
+
+    width: 70%;
+}
+.logo{
+    width: 5.5em;
+    height: 2.5em;
+
+}
+.nav-list{
+    display: flex;
+    position: relative;
+    right: 15em;
+}
+.list{
+    margin: 1em;
+
+    color: white;
+}
+.presentacion{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+.presentacion-img{
+    width: 80%;
+    height: 100%;
+
+    position: sticky;
+}
+.img-principal{
+    width: 100%;
+    height: 90%;
+    padding: 2em 0 0 2em;
+}
+.presentacion-text{
+    width: 80%;
+    height: 30em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+
+    position: relative;
+    left: 14em;
+    color: white;
+}
+.button-presentacion{
+    background-color: rgb(32, 138, 106) ;
+    color: white;
+
+    margin-top: 2em;
+    width: 8em;
+    height: 3em;
+
+    border-radius: 5%;
+
+    font-size: 1em;
+}
+.rango{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 50%;
+    background-color: rgb(32, 138, 106);
+
+    padding: 1em;
+    margin: 1em;
+
+    position: relative;
+    bottom: 2em;
+    right: 9.5em;
+}
+.rango-text1{
+    color: white;
+    font-size: 3em;
+}
+.rango-text2{
+    color: white;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+h2 {
+    font-size: 1.5em;
+    color:  rgb(32, 138, 106) ;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.marcas {
+    margin: 1em;
+}
+.marcas-img{
+    display: block;
+    margin: 0 auto;
+    width: 78%;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: repeat(2, 300px);
+
+    gap: 10px;
+    
+    width: 70%;
+    justify-content: center;
+}
+.servicios-header {
+    grid-column: 1/4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.servicios-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+
+    background-image: url(./BANNER.png);
+
+    width: 69%;
+    height: 800px;
+    margin: 2em;
+
+    justify-content: center;
+}
+.about-header{
+    color: white;
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    padding: 1em;
+    margin: 1em;
+}
+.about-img2 {
+    position: relative;
+
+    left: 100px;
+    top: 40px;
+
+    width: 600px;
+    height: 400px;
+}
+.about-img1 {
+    position: relative;
+
+    right: 180px;
+    top: 60px;
+
+    width: 600px;
+    height: 400px
+}
+.about-button {
+    background-color: rgb(32, 138, 106) ;
+    color: white;
+
+    width: 8em;
+    height: 2em;
+
+    border-radius: 1em;
+
+    font-size: 2em;
+
+    position: relative;
+    top: 11.5em;
+}
